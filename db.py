@@ -6,7 +6,8 @@ from bson.json_util import dumps
 class Mongo:
     USERNAME = "kopyl"
     PASSWORD = "oleg66"
-    IP = "0.0.0.0"
+    # IP = "0.0.0.0"
+    IP = "mongodb-mvf1:27017"
 
 
 client = pymongo.MongoClient(
