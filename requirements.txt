@@ -1,5 +1,5 @@
-Gunicorn==20.1.0
+Flask
+Gunicorn
 pymongo==3.11.0
 waitress==1.4.4
-Flask==1.1.2
 Flask-Cors==3.0.10
