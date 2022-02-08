@@ -23,4 +23,5 @@ def main_page() -> str:
     return jsonify(users)
 
 if __name__ == '__main__':
-    serve(app, port=90, host='0.0.0.0')
+    # serve(app, port=90, host='0.0.0.0')
+    app.run(host='0.0.0.0')
